@@ -1,4 +1,4 @@
-const validateObjectid = require('../middleware/validateObjectId');
+const validateObjectid = require('../middleware/validateObjectid');
 const auth = require('../middleware/auth');
 const admin = require('../middleware/admin');
 const {Genre, validate} = require('../models/genre');
