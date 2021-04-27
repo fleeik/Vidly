@@ -11,13 +11,6 @@ require('./startup/validation')();
 require('./startup/prod')(app);
 
 
-//throw new Error('Something failed during startup');
-
-//env private key
-//set vidly_jwtPrivateKey=mySecureKey
-
-//valid user token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MDc2MzU1MjNjN2NiNDA4YmNmZWFjYTAiLCJpYXQiOjE2MTgzNTk2MzR9.XAkCqGvGF48U1ZfLvGgn5smekev5eiLiR4iVtjGdLcs
-
 //homepage
 app.get('/', (req, res) => {
     res.send('Hello World!')
